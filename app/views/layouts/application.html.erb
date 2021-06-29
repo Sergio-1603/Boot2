@@ -11,6 +11,16 @@
   </head>
 
   <body>
+    <headers>
+    <nav>
+        <ul class="main-header">
+            <li class="main-header__list"><h2 class= "main-header__list__title">HOGARU-BOOTCAMP</h2></li>
+            <li class="main-header__list"><%= link_to"Login", "https://ffaab2ec329443d8aabe698f3b306e13.vfs.cloud9.us-east-2.amazonaws.com/login", class:"main-header__list__element"%></li>
+            <li class="main-header__list"><%= link_to"Signup", "https://ffaab2ec329443d8aabe698f3b306e13.vfs.cloud9.us-east-2.amazonaws.com/enter", class:"main-header__list__element"%></li>
+            <li class="main-header__list"><%= link_to"About us", "#", class:"main-header__list__element"%></li>
+        </ul>
+    </nav>
+</headers>
     <%= yield %>
   </body>
 </html>

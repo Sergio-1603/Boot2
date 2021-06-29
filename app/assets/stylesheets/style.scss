@@ -1,0 +1,96 @@
+@import "bootstrap-sprockets"; 
+@import "bootstrap";
+
+.main-header{
+    list-style: none;
+    text-align: right;
+    background: #5073E1;
+   
+}
+
+.main-header__list{
+     display: inline-block;
+     font-size: 20px;
+     padding: 20px;
+    
+}
+
+.main-header__list__element{
+    color: white;
+}
+
+.main-header__list__title{
+    padding-right:300px;
+    color: white;
+    font-weight: bold;
+   
+}
+
+.main-div{
+    display: flex;
+}
+
+.main-div__left{
+     flex: 0.50;
+}
+
+.main-div__right{
+     flex: 0.50;
+}
+
+.enter-main{
+    box-sizing:border-box;
+}
+
+.enter-form{
+	width:320px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#869EEA;
+	margin-top: 50px;
+}
+
+form label{
+	width:72px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+form input[type="text"],
+form input[type="email"]{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+textarea{
+	width:100%;
+	height:100px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	/*resize: vertical | horizontal | none | both*/
+	resize:none;
+	display:block;
+}
